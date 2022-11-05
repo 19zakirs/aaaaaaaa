@@ -119,9 +119,10 @@ body{
   .logo{
     height: 150px;
     width: 180px;
-    margin-left: 10px;
+    margin-left: 30px;
     position: relative;
     margin-top: -25px;
+    transform: scale(2);
   }
   .logo img{
     position: relative;
@@ -494,7 +495,10 @@ margin-top: 10px;
   width: 20%;
   position: relative;
   text-shadow: 2px 2px 10px black;
+  opacity: .8;
 }
+
+
 .main-img img{
   height: 100%;
   width: 100%;
@@ -520,6 +524,7 @@ margin-top: 10px;
   width: 80px;
 margin: 0px 10px;
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
+opacity: .8;
 }
 .product-small-img img{
   height: 100%;
@@ -654,7 +659,7 @@ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
   }
 
 
- @media(min-width:900px) and (max-width:2000px){
+ @media(min-width:900px) and (max-width:49000px){
     body{
         overflow-x: hidden;
     }
@@ -681,6 +686,11 @@ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
   }
  .sidenav{
   transform: translateX(-300px);
+  background: black;
+  z-index: 10;
+ }
+ .sidenav a, .dropdown-btn{
+  color:white;
  }
  .sidenavasdasd {
  
@@ -820,7 +830,6 @@ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
   .logo {
     height: 60px;
     width: 110px;
-    background: #262626;
     margin-left: 10px;
     position: relative;
     margin-top: 20px;
