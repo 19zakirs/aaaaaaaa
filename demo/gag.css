@@ -108,13 +108,14 @@ body{
   }
   .headerk{
     background: rgba(0, 0, 0, 0.616);
-    position: absolute;
+    position: fixed;
     width: 86%;
     height: 100px;
     left: 200px;
     top: 0;
     display: flex;
     transition: 1s;
+    z-index: 2;
   }
   .logo{
     height: 150px;
@@ -479,20 +480,20 @@ margin-top: 20px;
 display: flex;
 flex-wrap: wrap;
 margin-top: 10px;
+box-shadow: 2px 2px 30px black;
 
 }
 .product-area{
-  width: 95%;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   display: flex;
-  margin-top: 10px;
-  box-shadow: 2px 2px 10px black;
+  border: 1px solid black;
 
 }
 .main-img{
   border: 1px solid white;
   height: 100%;
-  width: 20%;
+  width: 28%;
   position: relative;
   text-shadow: 2px 2px 10px black;
   opacity: .8;
@@ -515,16 +516,17 @@ margin-top: 10px;
   width: 310px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: -10px;
+  margin-top: 30px;
   
 }
 .product-small-img{
   border: 1px solid black;
   height: 55px;
   width: 80px;
-margin: 0px 10px;
+margin: 5px 10px;
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
 opacity: .8;
+
 }
 .product-small-img img{
   height: 100%;
@@ -536,28 +538,28 @@ opacity: .8;
 
 .product-price span{
   font-size: 19px;
-  color: #f1f1f1;
+  color: #ffffff;
   font-weight: 800;
   margin-left: 10px;
   letter-spacing: 3px;
-  margin-top: -10px;
+  margin-top: 90px;
   text-shadow: 2px 2px 30px rgb(0, 0, 0);
 }
-.product-price {
-  margin-top: -10px;
-  
-}
+
 .product-name h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   margin-left:10px ;
-  text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.555);
+  text-shadow: 2px 2px 30px rgba(255, 255, 255, 0.555);
   color: white;
+  margin-top: 60px;
+
 }
 .product-discription p{
   margin-left: 10px;
   text-shadow: 2px 2px 10px black;
-  color: white;
+  color: rgb(201, 199, 199);
+  margin-top: 10px;
 }
 
 
@@ -698,7 +700,7 @@ opacity: .8;
 }
  .headerk {
   background: rgba(0, 0, 0, 0.616);
-  position: absolute;
+  position: fixed;
   height: 100px;
   width: 100%;
   left: 0;
@@ -870,12 +872,13 @@ opacity: .8;
   
   .product-price span {
     font-size: 15px;
-    color: #f1f1f1;
+    color: #ffffff;
     font-weight: 800;
     margin-left: 10px;
     letter-spacing: 3px;
     margin-top: -10px;
-    text-shadow: 2px 2px 30px rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    -webkit-text-stroke: 1px grey;
   }
 }
 
@@ -890,13 +893,13 @@ opacity: .8;
   .main-img{
     border: 1px solid white;
     height: 100%;
-    width: 40%;
+    width: 45%;
     position: relative;
     text-shadow: 2px 2px 10px black;
   }
   .product-content {
     height: 90%;
-    width: 60%;
+    width: 55%;
     position: relative;
     margin-top: -35px;
     transform: scale(.74);
@@ -980,8 +983,8 @@ opacity: .8;
     letter-spacing: 2px;
   }
   .product-imgs {
-    transform: scale(.76);
-    margin-left: -36px;
+    transform: scale(.68);
+    margin-left: -46px;
   }
   .product-name h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
